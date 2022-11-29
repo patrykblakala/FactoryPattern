@@ -11,12 +11,12 @@ public class Starter {
         Spartan spartan6 = spartanFactory.createSpartan("Business Analyst");
         Spartan spartan7 = spartanFactory.createSpartan("DevOps Engineer");
 
-        System.out.println(spartan1);
-        System.out.println(spartan2);
-        System.out.println(spartan3);
-        System.out.println(spartan4);
-        System.out.println(spartan5);
-        System.out.println(spartan6);
-        System.out.println(spartan7);
+        spartan1.work();
+        spartan2.work();
+        spartan3.work();
+        spartan4.work();
+        spartan5.work();
+        spartan6.work();
+        spartan7.work();
     }
 }
