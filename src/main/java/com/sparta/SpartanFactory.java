@@ -8,22 +8,21 @@ public class SpartanFactory {
         switch(channel)
         {
             case "Java Developer":
-                return new JavaDeveloper;
+                return new JavaDeveloper();
             case "Java SDET":
-                return new JavaSdet;
+                return new JavaSdet();
             case "C# Developer":
-                return new CSharpDeveloper;
+                return new CSharpDeveloper();
             case "C# SDET":
-                return CSharpSdet;
+                return new CSharpSdet();
             case "Data Engineer":
-                return new DataEngineer;
+                return new DataEngineer();
             case "Business Analyst":
-                return new BusinessAnalyst;
+                return new BusinessAnalyst();
             case "DevOps Engineer":
-                return new DevOpsEngineer;
+                return new DevOpsEngineer();
             default:
                 throw new IllegalArgumentException("Unknown Channel");
-
         }
 
     }
